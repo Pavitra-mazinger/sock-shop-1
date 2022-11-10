@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Payments API for Mazinger
+  title: Payments API for Mazinger v1 test
 
   version: '1.0'
 servers:
