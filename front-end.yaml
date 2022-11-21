@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: http://front-end.sock-shop
-  description: Mizu observed 24451346 entries (226717 failed), at 0.695 hits/s, average
+  
     response time is 0.019 seconds
   version: '1.0'
 servers:
