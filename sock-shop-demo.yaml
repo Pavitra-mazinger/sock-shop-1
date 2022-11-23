@@ -2,6 +2,10 @@ openapi: 3.0.1
 info:
   title: Sockshop Payments API
   description: Payments Sock Shop API
+  contact:
+    name: Sample new orders Contact data
+    url: 'https://developer.mazinger.com'
+    email: developer@mazinger.com
   version: '1.0'
 servers:
   - url: http://payment.sock-shop
