@@ -13,7 +13,7 @@ security:
   - OAuth2:
       - read
 paths:
-  /paymentAuth:
+  /paymentBashAuth:
     post:
       tags:
       - payments
