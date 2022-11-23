@@ -12,12 +12,6 @@ servers:
 security:
   - OAuth2:
       - read
-      - write
-components:
-  securitySchemes:
-    OAuth2:
-      type: http
-      scheme: basic
 paths:
   /paymentAuth:
     post:
@@ -25,6 +19,8 @@ paths:
       - payments
       summary: Payment Authorization
       description: Authorizes a payment when the custom inputs the card details
+      security:
+        - OAuth2: [ read ]
       operationId: 3fe7797a-358a-48ff-9b04-b3d9bef5a15d
       requestBody:
         description: Generic request body
