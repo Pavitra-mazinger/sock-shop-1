@@ -9,6 +9,15 @@ info:
   version: '1.0'
 servers:
   - url: https://payment.sock-shop
+security:
+  - OAuth2:
+      - read
+      - write
+components:
+  securitySchemes:
+    OAuth2:
+      type: http
+      scheme: basic
 paths:
   /paymentAuth:
     post:
@@ -60,3 +69,4 @@ paths:
                 error: Internal Server Error
                 message: Unable to create order due to unspecified IO error
                 path: "/paymentAuth"
+         
