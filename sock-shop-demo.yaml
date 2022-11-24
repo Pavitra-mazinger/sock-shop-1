@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: Sockshop Payments API
-  description: Payments Sock Shop API test
+  description: Payments Sock Shop API test test100
   contact:
     name: Sample new orders Contact data
     url: 'https://developer.mazinger.com'
