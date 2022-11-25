@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: Orders API for Mazinger
-  description: Orders Sock Shop API test demo
+  description: Orders Sock Shop API test demo bug bash
   version: '1.0'
 servers:
 - url: http://orders.sock-shop
