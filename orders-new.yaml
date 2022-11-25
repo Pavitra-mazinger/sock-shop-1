@@ -2,6 +2,10 @@ openapi: 3.0.1
 info:
   title: Orders API for Mazinger
   description: Orders Sock Shop API test demo bug bash bash3
+  contact:
+    name: Sample new orders Contact data
+    url: 'https://developer.mazinger.com'
+    email: developer@mazinger.com
   version: '1.0'
 servers:
 - url: https://orders.sock-shop
