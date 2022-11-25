@@ -2,6 +2,10 @@ openapi: "3.0.0"
 info:
   version: 1.0.0
   description: pavitra test
+  contact:
+    name: Sample new orders Contact data
+    url: 'https://developer.mazinger.com'
+    email: developer@mazinger.com
   title: Swagger Petstore
   license:
     name: MIT
