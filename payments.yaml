@@ -1,13 +1,11 @@
 openapi: 3.0.1
 info:
   title: Payments API for Mazinger v1 test
-  description: Pavitra test
+  description: Pavitra test test
   contact:
     name: Sample new petstore Contact data
     url: 'https://developer.mazinger.com'
     email: developer@petstore.com
-
-
   version: '1.0'
 servers:
   - url: http://payment.sock-shop
