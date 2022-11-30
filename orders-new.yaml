@@ -8,7 +8,7 @@ info:
     email: developer@mazinger.com
   version: '1.0'
 servers:
-- url: https://orders.sock-shop
+- url: http://orders.sock-shop
 paths:
   "/orders":
     post:
