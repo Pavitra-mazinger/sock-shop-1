@@ -6,7 +6,7 @@ info:
 servers:
 - url: http://orders.sock-shop
 paths:
-  "/order-pavitra":
+  "/order-hegde":
     post:
       tags:
       - orders
