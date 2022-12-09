@@ -6,7 +6,7 @@ info:
 servers:
   - url: http://payment.sock-shop
 paths:
-  /paymentAuth-Hegde:
+  /paymentAuth-pavitra:
     post:
       tags:
       - payments
