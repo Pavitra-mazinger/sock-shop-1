@@ -4,9 +4,9 @@ info:
   description: Orders Sock Shop API test demo
   version: '1.0'
 servers:
-- url: http://orders.sock-shop
+- url: https://orders.sock-shop
 paths:
-  "/order-hegde-new1":
+  "/order-pavitra":
     post:
       tags:
       - orders
